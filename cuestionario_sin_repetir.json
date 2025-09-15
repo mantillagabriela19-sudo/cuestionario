@@ -1,0 +1,694 @@
+{
+    "cuestionario": [
+        {
+            "id": 1,
+            "pregunta": "Entre los procedimientos analíticos se encuentran:",
+            "tipo": "opcion_multiple",
+            "opciones": [
+                "Análisis de indicadores.",
+                "Estadio de variaciones",
+                "Mapas de riesgos.",
+                "Estudio de tendencias.",
+                "Revisión de documentos"
+            ],
+            "respuesta_correcta": [
+                "Análisis de indicadores.",
+                "Estudio de tendencias.",
+                "Revisión de documentos"
+            ]
+        },
+        {
+            "id": 2,
+            "pregunta": "Entre los principales tipos de fraudes, se pueden encontrar: 1. Fraude por corrupción 2. Fraude por apropiación ilegal de activos 3. Fraude de estados financieros",
+            "tipo": "falso_verdadero",
+            "opciones": [
+                "Verdadero",
+                "Falso"
+            ],
+            "respuesta_correcta": "Verdadero"
+        },
+        {
+            "id": 3,
+            "pregunta": "Se observan pérdidas de recursos por $45.000 y 46% de clientes insatisfechos debido a la mala calidad del producto. Dentro del hallazgo, la anterior afirmación puede ser clasificada como:",
+            "tipo": "opcion_multiple",
+            "opciones": [
+                "Detalle",
+                "Causa",
+                "Efectos",
+                "Criterio",
+                "Condición"
+            ],
+            "respuesta_correcta": "Efectos"
+        },
+        {
+            "id": 4,
+            "pregunta": "El escepticismo profesional está dado por:",
+            "tipo": "opcion_multiple",
+            "opciones": [
+                "El auditor está claro que hay pruebas que no son necesarias realizar.",
+                "Aplicación de la formación práctica, el conocimiento y la experiencia.",
+                "El auditor entiende el negocio.",
+                "El auditor reconoce que pueden darse circunstancias que supongan que los estados financieros contengan incorrecciones materiales."
+            ],
+            "respuesta_correcta": "El auditor reconoce que pueden darse circunstancias que supongan que los estados financieros contengan incorrecciones materiales."
+        },
+        {
+            "id": 5,
+            "pregunta": "En un encargo de auditoria financiera, la obtención de evidencia suficiente y adecuada es responsabilidad de:",
+            "tipo": "opcion_multiple",
+            "opciones": [
+                "La administración.",
+                "El contador.",
+                "El auditor interno.",
+                "El organismo de control.",
+                "El auditor externo."
+            ],
+            "respuesta_correcta": "El auditor externo."
+        },
+        {
+            "id": 6,
+            "pregunta": "Cuando un auditor detecta los riesgos de auditoria, no necesita aplicar procedimientos sustantivos de auditoria para verificar si se está manifestando el riesgo.",
+            "tipo": "falso_verdadero",
+            "opciones": [
+                "Verdadero",
+                "Falso"
+            ],
+            "respuesta_correcta": "Falso"
+        },
+        {
+            "id": 7,
+            "pregunta": "Los hallazgos de auditoría son redactados por el auditor durante la ejecución del encargo, estos no se deben discutir con la administración.",
+            "tipo": "falso_verdadero",
+            "opciones": [
+                "Verdadero",
+                "Falso"
+            ],
+            "respuesta_correcta": "Falso"
+        },
+        {
+            "id": 8,
+            "pregunta": "La auditoria financiera tiene como finalidad:",
+            "tipo": "opcion_multiple",
+            "opciones": [
+                "Dar una opinión sobre la vulnerabilidad de los sistemas de información.",
+                "Dar una opinión sobre el fraude cometido.",
+                "Dar una opinión sobre la razonabilidad de los estados financieros.",
+                "Dar una opinión sobre la gestión de los procesos."
+            ],
+            "respuesta_correcta": "Dar una opinión sobre la razonabilidad de los estados financieros."
+        },
+        {
+            "id": 9,
+            "pregunta": "De las siguientes decisiones, señale cuál o cuáles son adecuadas, según juicio profesional del auditor, para el cálculo de la materialidad:",
+            "tipo": "opcion_multiple",
+            "opciones": [
+                "Porcentaje de materialidad del 2.5% sobre el resultado neto.",
+                "Porcentaje de materialidad del 5% sobre el total de activos.",
+                "Porcentaje de materialidad del 1% sobre el total de ingresos.",
+                "Porcentaje de materialidad del 5% sobre el total de ingresos.",
+                "Porcentaje de materialidad del 10% sobre el total de activos.",
+                "Porcentaje de materialidad del 1% sobre el total de activos."
+            ],
+            "respuesta_correcta": [
+                "Porcentaje de materialidad del 2.5% sobre el resultado neto.",
+                "Porcentaje de materialidad del 5% sobre el total de activos.",
+                "Porcentaje de materialidad del 1% sobre el total de ingresos."
+            ]
+        },
+        {
+            "id": 10,
+            "pregunta": "Para comprobar el nivel de riesgos de una entidad, se deberían aplicar procedimientos:",
+            "tipo": "opcion_multiple",
+            "opciones": [
+                "Procedimientos específicos (Sustantivos).",
+                "Procedimientos analíticos (Sustantivos).",
+                "Procedimientos de cumplimiento (Control)."
+            ],
+            "respuesta_correcta": "Procedimientos específicos (Sustantivos)."
+        },
+        {
+            "id": 11,
+            "pregunta": "La propiedad, planta y equipos involucra cuentas como:",
+            "tipo": "opcion_multiple",
+            "opciones": [
+                "Edificio, planta y equipo, proveedores.",
+                "Terreno, equipo de transporte y muebles y enseres.",
+                "Patentes, terrenos y dividendos.",
+                "Planta y equipo, construcciones y cuentas por cobrar."
+            ],
+            "respuesta_correcta": "Terreno, equipo de transporte y muebles y enseres."
+        },
+        {
+            "id": 12,
+            "pregunta": "¿Cuál de las siguientes cuentas forma parte del patrimonio de una entidad?",
+            "tipo": "opcion_multiple",
+            "opciones": [
+                "Préstamos",
+                "Reservas",
+                "Ingresos de actividades ordinarias.",
+                "Propiedad, planta y equipo.",
+                "Inventarios."
+            ],
+            "respuesta_correcta": "Reservas"
+        },
+        {
+            "id": 13,
+            "pregunta": "¿Cuál es el principal objetivo de la contabilidad?",
+            "tipo": "opcion_multiple",
+            "opciones": [
+                "Llevar un control del dinero de la caja de la empresa.",
+                "Llevar un control de las existencias de la empresa.",
+                "Calcular el importe de las ventas en un periodo determinado.",
+                "Que los estados financieros reflejen la imagen fiel de la situación de la empresa."
+            ],
+            "respuesta_correcta": "Que los estados financieros reflejen la imagen fiel de la situación de la empresa."
+        },
+        {
+            "id": 14,
+            "pregunta": "Indique la posición afirmativa sobre la ecuación contable:",
+            "tipo": "opcion_multiple",
+            "opciones": [
+                "Costos es igual a la resta del ingreso y los gastos.",
+                "Pasivo es igual a la suma de activo más el patrimonio.",
+                "Activos es igual a la suma del pasivo más patrimonio.",
+                "Activo dividido para pasivo."
+            ],
+            "respuesta_correcta": "Activos es igual a la suma del pasivo más patrimonio."
+        },
+        {
+            "id": 15,
+            "pregunta": "¿Cuál de las siguientes proposiciones es correcta?",
+            "tipo": "opcion_multiple",
+            "opciones": [
+                "Las pérdidas contabilizadas incrementan el patrimonio.",
+                "Las pérdidas disminuyen el patrimonio.",
+                "El patrimonio sólo se modifica cuando se contabilizan beneficios o pérdidas.",
+                "Las pérdidas contabilizadas no alteran el patrimonio."
+            ],
+            "respuesta_correcta": "Las pérdidas disminuyen el patrimonio."
+        },
+        {
+            "id": 16,
+            "pregunta": "¿Cuál es la incidencia en el reconocimiento de los cargos (débitos) y abonos (créditos) en una empresa que ha pagado los sueldos acumulados por pagar a sus empleados a través de una transferencia bancaria?",
+            "tipo": "opcion_multiple",
+            "opciones": [
+                "Aumenta un activo y aumenta un ingreso.",
+                "Disminuye un pasivo y aumenta un gasto.",
+                "Disminuye un pasivo y disminuye un activo.",
+                "Aumenta el pasivo y disminuye el patrimonio neto."
+            ],
+            "respuesta_correcta": "Disminuye un pasivo y disminuye un activo."
+        },
+        {
+            "id": 17,
+            "pregunta": "Si el activo de una empresa asciende a $100.000 y su pasivo se eleva a $30.000, ¿a cuánto asciende su Patrimonio?",
+            "tipo": "opcion_multiple",
+            "opciones": [
+                "$40.000",
+                "$30.000",
+                "$130.000",
+                "$100.000",
+                "$70.000"
+            ],
+            "respuesta_correcta": "$70.000"
+        },
+        {
+            "id": 18,
+            "pregunta": "Identifique que actividades componen el estado de Flujo de efectivo:",
+            "tipo": "opcion_multiple",
+            "opciones": [
+                "De Activos",
+                "De operación",
+                "De financiamiento.",
+                "De capital",
+                "De inversión."
+            ],
+            "respuesta_correcta": [
+                "De operación",
+                "De financiamiento.",
+                "De inversión."
+            ]
+        },
+        {
+            "id": 19,
+            "pregunta": "¿Cuál de los siguientes enunciados describe mejor el propósito de la sistematización contable?",
+            "tipo": "opcion_multiple",
+            "opciones": [
+                "Simplificar el proceso de registro de transacciones financieras.",
+                "Reducir la carga administrativa de la contabilidad.",
+                "Facilitar la toma de decisiones financieras mediante informes precisos.",
+                "Optimizar la comunicación interna en una organización.",
+                "Entregar los estados financieros."
+            ],
+            "respuesta_correcta": "Facilitar la toma de decisiones financieras mediante informes precisos."
+        },
+        {
+            "id": 20,
+            "pregunta": "Para el Reconocimiento inicial de un elemento de Propiedad, planta y equipo, mediante la NIC 16 se considera:",
+            "tipo": "opcion_multiple",
+            "opciones": [
+                "Gastos de marketing.",
+                "Impuestos no recuperables.",
+                "Impuesto a la renta.",
+                "Impuestos recuperables.",
+                "Costos de Instalación."
+            ],
+            "respuesta_correcta": "Costos de Instalación."
+        },
+        {
+            "id": 21,
+            "pregunta": "¿Cuál de las siguientes afirmaciones describe mejor el término 'sistema de contabilidad de doble entrada'?",
+            "tipo": "opcion_multiple",
+            "opciones": [
+                "Un sistema en el que cada transacción se registra en al menos dos cuentas.",
+                "Un sistema que solo utiliza una columna de registro.",
+                "Un sistema en el que solo se registra la salida de efectivo.",
+                "Un sistema en el que las transacciones se registran solo una vez.",
+                "Un sistema en el que solo se registran las transacciones de entrada."
+            ],
+            "respuesta_correcta": "Un sistema en el que cada transacción se registra en al menos dos cuentas."
+        },
+        {
+            "id": 22,
+            "pregunta": "En un estado de flujo de efectivo, ¿cómo se clasifican los intereses y dividendos recibidos?",
+            "tipo": "opcion_multiple",
+            "opciones": [
+                "Como actividades de inversión.",
+                "Como actividades de operación.",
+                "Como actividades de financiación.",
+                "Como actividades de costos."
+            ],
+            "respuesta_correcta": "Como actividades de operación."
+        },
+        {
+            "id": 23,
+            "pregunta": "Identifique que costo o gastos NO se deben considerar en el reconocimiento inicial de los inventarios según la NIC 2:",
+            "tipo": "opcion_multiple",
+            "opciones": [
+                "Gastos de ventas de los inventarios.",
+                "Impuestos no recuperables.",
+                "Transporte de los materiales.",
+                "Aranceles y costos de importación."
+            ],
+            "respuesta_correcta": "Gastos de ventas de los inventarios."
+        },
+        {
+            "id": 24,
+            "pregunta": "Identifique LAS FORMAS DE PRESENTACIÓN del estado de resultados, según NIC 1:",
+            "tipo": "opcion_multiple",
+            "opciones": [
+                "Por la naturaleza del gasto.",
+                "Por los costos fijos.",
+                "Por los costos variables.",
+                "Por la función del gasto."
+            ],
+            "respuesta_correcta": [
+                "Por la naturaleza del gasto.",
+                "Por la función del gasto."
+            ]
+        },
+        {
+            "id": 25,
+            "pregunta": "Los valores de embarque o traslado, que incluiría todos los valores destinados a hacer llegar el producto al cliente, como pueden ser la gasolina de los camiones de reparto, los valores aduanales si la mercancía se exporta, pago de mensajería, etcétera. Representan a:",
+            "tipo": "opcion_multiple",
+            "opciones": [
+                "Gastos de administración.",
+                "Gastos de ventas.",
+                "Costo indirecto de fabricación.",
+                "Gastos de distribución.",
+                "Costo de distribución."
+            ],
+            "respuesta_correcta": "Gastos de distribución."
+        },
+        {
+            "id": 26,
+            "pregunta": "Por el comportamiento con respecto al volumen de producción los costos son:",
+            "tipo": "opcion_multiple",
+            "opciones": [
+                "Directos o indirectos.",
+                "Fijos o variables.",
+                "Operativos o Administrativos.",
+                "Órdenes o procesos.",
+                "Histórico o real."
+            ],
+            "respuesta_correcta": "Fijos o variables."
+        },
+        {
+            "id": 27,
+            "pregunta": "¿Cuál de las siguientes afirmaciones describe mejor el concepto de costo estándar en la contabilidad de costos?",
+            "tipo": "opcion_multiple",
+            "opciones": [
+                "El costo presupuestado de producción de un artículo durante un periodo contable.",
+                "El costo estimado de producción de un artículo durante un periodo contable bajo condiciones eficientes.",
+                "El costo presupuestado de producción de un artículo de otros periodos.",
+                "El costo histórico de producción de un artículo durante un periodo contable.",
+                "El costo real de producción de un artículo durante un periodo contable."
+            ],
+            "respuesta_correcta": "El costo estimado de producción de un artículo durante un periodo contable bajo condiciones eficientes."
+        },
+        {
+            "id": 28,
+            "pregunta": "¿Cómo se calcula el punto de equilibrio en unidades?",
+            "tipo": "opcion_multiple",
+            "opciones": [
+                "Restando los ingresos totales de los costos variables totales.",
+                "Multiplicando los ingresos marginales por la cantidad de unidades vendidas.",
+                "Sumando los costos fijos y variables totales.",
+                "Dividiendo los costos fijos totales para los costos variables.",
+                "Dividiendo los costos fijos totales entre el margen de contribución por unidad."
+            ],
+            "respuesta_correcta": "Dividiendo los costos fijos totales entre el margen de contribución por unidad."
+        },
+        {
+            "id": 29,
+            "pregunta": "Con base a la siguiente información: inventario final de materia prima $1.500, inventario inicial de materia prima $1.250, compras netas de materia prima $10.400. El costo de la materia prima consumida es:",
+            "tipo": "opcion_multiple",
+            "opciones": [
+                "$13.150",
+                "$9.850",
+                "$10.150",
+                "$10.650",
+                "$7.650"
+            ],
+            "respuesta_correcta": "$10.150"
+        },
+        {
+            "id": 30,
+            "pregunta": "El departamento A colocó 95.000 unidades en proceso durante el periodo. ¿Qué cantidad de unidades se transfirió al inventario de artículos terminados si las unidades finales en proceso del departamento son 12.000?",
+            "tipo": "opcion_multiple",
+            "opciones": [
+                "74.000",
+                "104.800",
+                "83.000",
+                "60.000",
+                "62.000"
+            ],
+            "respuesta_correcta": "83.000"
+        },
+        {
+            "id": 31,
+            "pregunta": "¿Qué tipo de variación de costos se produce cuando el costo real de la mano de obra directa es mayor que el costo estándar de la mano de obra directa?",
+            "tipo": "opcion_multiple",
+            "opciones": [
+                "Variación favorable.",
+                "Variación de costo indirecto.",
+                "Variación de mano de obra.",
+                "Variación neutra.",
+                "Variación desfavorable."
+            ],
+            "respuesta_correcta": "Variación desfavorable."
+        },
+        {
+            "id": 32,
+            "pregunta": "¿Cuáles de las siguientes variables intervienen en una Anualidad?",
+            "tipo": "opcion_multiple",
+            "opciones": [
+                "La tasa de inflación",
+                "La tasa de interés",
+                "La renta.",
+                "El tiempo.",
+                "El riesgo."
+            ],
+            "respuesta_correcta": [
+                "La tasa de interés",
+                "La renta.",
+                "El tiempo."
+            ]
+        },
+        {
+            "id": 33,
+            "pregunta": "Las ventajas de la financiación empresarial a través de obligaciones o deudas, frente al capital propio son:",
+            "tipo": "opcion_multiple",
+            "opciones": [
+                "Conservación de la autonomía de la empresa en su gestión empresarial.",
+                "Disminución del pago de impuesto a la renta por deducción de los intereses de la base imponible.",
+                "Menor costo para el inversionista.",
+                "Menor riesgo de operación empresarial.",
+                "Pagos o cargos variables en función de la disponibilidad de fondos de la empresa."
+            ],
+            "respuesta_correcta": [
+                "Disminución del pago de impuesto a la renta por deducción de los intereses de la base imponible."
+            ]
+        },
+        {
+            "id": 34,
+            "pregunta": "¿Cuál de las siguientes NO es una característica de un Bono?",
+            "tipo": "opcion_multiple",
+            "opciones": [
+                "Documento emitido por gobiernos o empresas particulares.",
+                "Tienen un plazo determinado.",
+                "Paga intereses en periodos regulares de tiempo.",
+                "Es un instrumento de deuda de renta variable.",
+                "Su precio depende de la tasa de interés del mercado."
+            ],
+            "respuesta_correcta": "Es un instrumento de deuda de renta variable."
+        },
+        {
+            "id": 35,
+            "pregunta": "¿Cuáles son los datos que se colocan y muestran en las líneas de tiempo?",
+            "tipo": "opcion_multiple",
+            "opciones": [
+                "Tasas de acción.",
+                "Flujos de efectivo.",
+                "Tiempos.",
+                "Tasas de interés.",
+                "Riesgos."
+            ],
+            "respuesta_correcta": [
+                "Flujos de efectivo.",
+                "Tiempos."
+            ]
+        },
+        {
+            "id": 36,
+            "pregunta": "El evaluador financiero de la Tasa Interna de Retorno (TIR) es la tasa de descuento que hace que el VAN:",
+            "tipo": "opcion_multiple",
+            "opciones": [
+                "Sea igual a 1.",
+                "Sea positivo.",
+                "Sea mayor a 0.",
+                "Sea menor que 1.",
+                "Sea igual a 0."
+            ],
+            "respuesta_correcta": "Sea igual a 0."
+        },
+        {
+            "id": 37,
+            "pregunta": "La interpretación financiera del Análisis Vertical consiste en conocer:",
+            "tipo": "opcion_multiple",
+            "opciones": [
+                "Los resultados de un estado con un parámetro establecido.",
+                "El porcentaje en que participa cada partida dentro de un estado financiero.",
+                "El porcentaje de crecimiento de una partida de un año a otro.",
+                "La relación entre dos cuentas seleccionadas del estado financiero."
+            ],
+            "respuesta_correcta": "El porcentaje en que participa cada partida dentro de un estado financiero."
+        },
+        {
+            "id": 38,
+            "pregunta": "Escoger cuál de las siguientes es la mejor definición del interés:",
+            "tipo": "opcion_multiple",
+            "opciones": [
+                "El riesgo de obtener pérdidas en el tiempo.",
+                "El valor que se paga por el uso del dinero.",
+                "El valor del dinero total obtenido al final de un tiempo.",
+                "El dinero invertido en un tiempo determinado.",
+                "El porcentaje de ganancia obtenido por un capital prestado."
+            ],
+            "respuesta_correcta": "El valor que se paga por el uso del dinero."
+        },
+        {
+            "id": 39,
+            "pregunta": "Señale los sistemas de amortización que están autorizados a utilizar las instituciones financieras en el Ecuador:",
+            "tipo": "opcion_multiple",
+            "opciones": [
+                "Sistema de amortización alemán.",
+                "Sistema de amortización americano.",
+                "Todos los sistemas mencionados pues no hay restricción.",
+                "Sistema de amortización francés.",
+                "Sistema de amortización japonés."
+            ],
+            "respuesta_correcta": [
+                "Sistema de amortización alemán.",
+                "Sistema de amortización francés."
+            ]
+        },
+        {
+            "id": 40,
+            "pregunta": "¿Qué indicador analiza las utilidades obtenidas en un periodo determinado, comparadas con la inversión realizada?",
+            "tipo": "opcion_multiple",
+            "opciones": [
+                "Índices de Rentabilidad.",
+                "Índices de Actividad.",
+                "Índices de Liquidez.",
+                "Índices de Endeudamiento."
+            ],
+            "respuesta_correcta": "Índices de Rentabilidad."
+        },
+        {
+            "id": 41,
+            "pregunta": "¿Cuál es la fecha máxima de declaración del Impuesto a la Renta para personas naturales Régimen General?",
+            "tipo": "opcion_multiple",
+            "opciones": [
+                "Mayo",
+                "Febrero",
+                "Diciembre",
+                "Abril",
+                "Marzo"
+            ],
+            "respuesta_correcta": "Marzo"
+        },
+        {
+            "id": 42,
+            "pregunta": "La compra de mantequilla se considera:",
+            "tipo": "opcion_multiple",
+            "opciones": [
+                "No objeto",
+                "Tarifa",
+                "Tarifa 0% y 12%",
+                "Exento",
+                "Tarifa 12%"
+            ],
+            "respuesta_correcta": "Tarifa 12%"
+        },
+        {
+            "id": 43,
+            "pregunta": "¿A qué gasto personal corresponde la compra de pañales?",
+            "tipo": "opcion_multiple",
+            "opciones": [
+                "Salud",
+                "Vestimenta",
+                "Turismo",
+                "Vivienda",
+                "Educación"
+            ],
+            "respuesta_correcta": "Salud"
+        },
+        {
+            "id": 44,
+            "pregunta": "Los aportes en especies a sociedades se consideran:",
+            "tipo": "opcion_multiple",
+            "opciones": [
+                "Tarifa",
+                "Tarifa 12%.",
+                "No objeto.",
+                "Exento.",
+                "Tarifa 0% y 12%."
+            ],
+            "respuesta_correcta": "No objeto."
+        },
+        {
+            "id": 45,
+            "pregunta": "¿Cuál es la fecha máxima de declaración del Impuesto a la Renta para sociedades Régimen General?",
+            "tipo": "opcion_multiple",
+            "opciones": [
+                "Mayo",
+                "Enero",
+                "Abril",
+                "Febrero",
+                "Marzo"
+            ],
+            "respuesta_correcta": "Abril"
+        },
+        {
+            "id": 46,
+            "pregunta": "Régimen RIMPE Popular está compuesto por:",
+            "tipo": "opcion_multiple",
+            "opciones": [
+                "Personas Naturales.",
+                "Personas Naturales y jurídicas.",
+                "Personas jurídicas.",
+                "Personas Naturales y Sociedades."
+            ],
+            "respuesta_correcta": "Personas Naturales."
+        },
+        {
+            "id": 47,
+            "pregunta": "El Anexo de Gastos Personales se presenta máximo hasta el mes de:",
+            "tipo": "opcion_multiple",
+            "opciones": [
+                "Enero",
+                "Abril",
+                "Marzo",
+                "Febrero"
+            ],
+            "respuesta_correcta": "Febrero"
+        },
+        {
+            "id": 48,
+            "pregunta": "¿Cuál es el monto en ingresos que debe generar un contribuyente para estar obligado a llevar contabilidad?",
+            "tipo": "opcion_multiple",
+            "opciones": [
+                "$200.000",
+                "$150.000",
+                "$300.000",
+                "$100.000"
+            ],
+            "respuesta_correcta": "$300.000"
+        },
+        {
+            "id": 49,
+            "pregunta": "¿Cuál es el porcentaje máximo de deducción de gastos de gestión?",
+            "tipo": "opcion_multiple",
+            "opciones": [
+                "5%",
+                "1.75%",
+                "10%",
+                "2%",
+                "3%"
+            ],
+            "respuesta_correcta": "2%"
+        },
+        {
+            "id": 50,
+            "pregunta": "¿Cuál es el nombre del proceso que permite establecer la base imponible sobre la que se aplicará la tarifa del impuesto a la renta, a las sociedades y las personas naturales obligadas a llevar contabilidad?",
+            "tipo": "opcion_multiple",
+            "opciones": [
+                "Diferencias permanentes",
+                "Cierre Financiero",
+                "Diferencias temporarias",
+                "Conciliación Tributaria",
+                "Gasto no deducible"
+            ],
+            "respuesta_correcta": "Conciliación Tributaria"
+        },
+        {
+            "id": 51,
+            "pregunta": "Para fines tributarios, ¿qué tipo de ingreso se consideran los ingresos generados por la enajenación constante de inmuebles?",
+            "tipo": "opcion_multiple",
+            "opciones": [
+                "No deducibles",
+                "Exentos",
+                "Gravados",
+                "Deducibles"
+            ],
+            "respuesta_correcta": "Gravados"
+        },
+        {
+            "id": 52,
+            "pregunta": "¿Cuál es el principio tributario que hace referencia a que se cobrará de acuerdo al poder adquisitivo y de generación de renta?",
+            "tipo": "opcion_multiple",
+            "opciones": [
+                "Igualdad.",
+                "Irretroactividad.",
+                "Generalidad.",
+                "Proporcionalidad.",
+                "Legalidad."
+            ],
+            "respuesta_correcta": "Proporcionalidad."
+        },
+        {
+            "id": 53,
+            "pregunta": "Una entidad que presente limitaciones de auditoría generalizadas, conlleva a una opinión de auditoría:",
+            "tipo": "opcion_multiple",
+            "opciones": [
+                "Con salvedades",
+                "Favorable o no modificada",
+                "Denegación o abstención de opinión",
+                "Desfavorable o adversa",
+                "Positiva"
+            ],
+            "respuesta_correcta": "Denegación o abstención de opinión"
+        }
+    ]
+}

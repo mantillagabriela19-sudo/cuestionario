@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuestionario Interactivo</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 flex items-center justify-center min-h-screen p-4">
+
+    <div class="container bg-white p-6 sm:p-8 rounded-xl shadow-lg w-full max-w-3xl">
+        <h1 class="text-3xl font-bold text-center text-indigo-700 mb-8">Cuestionario de Práctica</h1>
+        
+        <div id="cuestionario-container" class="space-y-6">
+            </div>
+        
+        <button id="solucion-btn" class="mt-10 w-full bg-indigo-600 text-white font-bold py-3 px-4 rounded-lg hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-opacity-50 transition-all duration-300">
+            Revelar Soluciones
+        </button>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const cuestionarioContainer = document.getElementById('cuestionario-container');
+            const solucionBtn = document.getElementById('solucion-btn');
+            let datosCuestionario;
+
+            // --- 1. Cargar las preguntas desde el archivo JSON ---
+            fetch('cuestionario_sin_repetir.json')
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error(`HTTP error! status: ${response.status}`);
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    datosCuestionario = data.cuestionario;
+                    if (!datosCuestionario) {
+                        throw new Error("El JSON no tiene la clave 'cuestionario'.");
+                    }
+                    crearCuestionario(datosCuestionario);
+                })
+                .catch(error => {
+                    console.error("Error al cargar el cuestionario:", error);
+                    cuestionarioContainer.innerHTML = `
+                        <div class="bg-red-100 border-l-4 border-red-500 text-red-700 p-4 rounded-md">
+                            <p class="font-bold">Error al Cargar</p>
+                            <p>No se pudo cargar el archivo <strong>cuestionario_sin_repetir.json</strong>. Asegúrate de que el archivo existe en la misma carpeta y de que estás usando un servidor local.</p>
+                        </div>`;
+                });
+
+            // --- 2. Función para generar el HTML del cuestionario ---
+            function crearCuestionario(preguntas) {
+                preguntas.forEach((preguntaObj, index) => {
+                    // Contenedor principal para cada pregunta
+                    const preguntaDiv = document.createElement('div');
+                    preguntaDiv.className = 'pregunta border-b border-gray-200 pb-6';
+
+                    // Párrafo con el texto de la pregunta
+                    const preguntaTexto = document.createElement('p');
+                    preguntaTexto.className = 'font-semibold text-lg text-gray-800 mb-4';
+                    preguntaTexto.textContent = `${index + 1}. ${preguntaObj.pregunta}`;
+                    preguntaDiv.appendChild(preguntaTexto);
+
+                    // Contenedor para todas las opciones
+                    const opcionesDiv = document.createElement('div');
+                    opcionesDiv.className = 'opciones space-y-2';
+                    preguntaDiv.appendChild(opcionesDiv);
+
+                    // Crear un div para cada opción
+                    preguntaObj.opciones.forEach(opcion => {
+                        const opcionElement = document.createElement('div');
+                        opcionElement.className = 'p-3 bg-gray-50 border border-gray-200 rounded-lg transition-all duration-300';
+                        opcionElement.textContent = opcion;
+                        opcionesDiv.appendChild(opcionElement);
+                    });
+                    
+                    cuestionarioContainer.appendChild(preguntaDiv);
+                });
+            }
+
+            // --- 3. Evento del botón para mostrar las soluciones ---
+            solucionBtn.addEventListener('click', () => {
+                if (!datosCuestionario) return; // No hacer nada si no hay datos
+
+                const todasLasPreguntas = document.querySelectorAll('.pregunta');
+
+                todasLasPreguntas.forEach((preguntaDiv, index) => {
+                    const preguntaObj = datosCuestionario[index];
+                    const opcionesElements = preguntaDiv.querySelectorAll('.opciones div');
+                    
+                    const respuestaCorrecta = preguntaObj.respuesta_correcta;
+
+                    opcionesElements.forEach(opcionElement => {
+                        // Verificar si la opción es una de las respuestas correctas
+                        const esCorrecta = Array.isArray(respuestaCorrecta) 
+                            ? respuestaCorrecta.includes(opcionElement.textContent)
+                            : opcionElement.textContent === respuestaCorrecta;
+
+                        if (esCorrecta) {
+                            // Aplicar clases de Tailwind para resaltar la respuesta
+                            opcionElement.classList.remove('bg-gray-50', 'border-gray-200');
+                            opcionElement.classList.add('bg-green-100', 'text-green-800', 'font-bold', 'border-l-4', 'border-green-500');
+                        }
+                    });
+                });
+                
+                // Deshabilitar el botón después de usarlo
+                solucionBtn.textContent = 'Soluciones Reveladas';
+                solucionBtn.disabled = true;
+                solucionBtn.classList.remove('hover:bg-indigo-700');
+                solucionBtn.classList.add('bg-gray-400', 'cursor-not-allowed');
+            });
+        });
+    </script>
+
+</body>
+</html>
